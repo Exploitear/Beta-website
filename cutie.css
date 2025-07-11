@@ -53,7 +53,90 @@ body {
         border-left-style: dotted;
         border-right-style: dotted;
         border-color: rgb(168, 126, 140);
-        border-radius: 5px;
+        border-radius: 25px;
         padding: 7px;
 
+}
+
+#img2{
+border-style: outset;
+        border-width: 5px;
+        border-color: rgba(193,113,127,255);
+        border-radius: 20px;
+        padding: 3px;
+
+}
+
+#p1change{
+     border-style: outset;
+        border-width: 2px;
+        border-bottom-style: ridge;
+        border-left-style: dotted;
+        border-right-style: dotted;
+        border-color: rgb(168, 126, 140);
+        border-radius: 25px;
+        padding: 7px;
+
+}
+
+#thema1{
+       
+        border-width: 2px;
+        border-left-style: hidden;
+        border-right-style: hidden;
+        border-top-style: dotted;
+        border-bottom-style: dotted;
+        border-color: rgb(168, 126, 140);
+        border-radius: 3px;
+        padding: 7px;
+
+
+}
+
+#txt3{
+  
+        border-width: 3px;
+        border-left-style: dotted;
+        border-right-style: dotted;
+        border-top-style: ridge;
+        border-bottom-style: ridge;
+        border-color: rgb(168, 126, 140);
+        border-radius: 15px;
+        padding: 10px;
+}
+
+#txt5{
+ 
+        border-width: 3px;
+        border-left-style: double;
+        border-right-style: double ;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-color: rgb(168, 126, 140);
+        border-radius: 7px;
+        padding: 10px;
+}
+
+#txt6{
+ 
+        border-width: 3px;
+        border-left-style: groove;
+        border-right-style: groove;
+        border-top-style: dotted;
+        border-bottom-style: dotted;
+        border-color: rgb(168, 126, 140);
+        border-radius: 10px;
+        padding: 7px;
+}
+
+#txt7{
+  
+        border-width: 3px;
+        border-left-style: inset;
+        border-right-style: outset;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-color: rgb(168, 126, 140);
+        border-radius: 10px;
+        padding: 7px;
 }
