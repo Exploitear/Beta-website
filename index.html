@@ -4,67 +4,57 @@
 
 <head>
 <title>Trinity.exe</title> <!--ie the name displayed on the browser tab-->
+<link rel="stylesheet" href="Cutie.css">
 
 <!-- style for the webpage, background color is aliceblue, and text color is red-pink, font is monospace (ie the same spacing between all characters) for the heading of all things of h1
  their text shadow is red-scarlet, for all links like <a> ie which is leur and asami lilith is black, and hovering over links there is a glow shadow of pink-->
 
-
-
-<style>
-  body {
-    background-color: rgb(240, 248, 255);
-    color: rgb(173, 38, 79);
-    font-family: monospace; 
-  } 
-
-  h1 {
-    text-shadow: 0 0 5px rgb(116, 18, 22);
-  }
-
-  a {
-    color: rgba(81, 83, 96, 255);
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-shadow: 0 0 10px rgba(193,113,127,255);
-  }
-</style>
-
+<meta charset="UTF-8">
+<meta name="description" content="A fan-website on Asami Lilith from Trinity seven">
+<meta name="keywords" content="Trinity seven, Asami Lilith, Trinity, anime-fanpage, anime-fanpage">
+<meta name="author" content="Exploitear">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--<meta http-equiv="refresh" content="30">--> <!--will keep commented out for now, since the music/ending theme also closes everytime it refreshes, prob will learn DOM manipulation to refresh stuff without refreshing like this-->
 <!--monospace is great! but for anything h3 and up, bigger fonts doesnt look very well with it, so you will see me use h3 or h4 and some places <p>--> 
 
 </head>
 <!--Body, there;s the leur link, and then asami lilith text linked to fandom along with  images, one linked to fandom as well and at last the ending theme of trinity seven-->
 <!--some stylisation using double hr and calculated br's along with thoughtout <p> and <h3> combos-->
+<!--next day from the above comments rn, well 2 am again and me bored, time to do more HTML; some css too if i dont get bored-->
 
 <body>
 
-  
-    <h3>Trinity</h3>
-    <hr>
-    <hr>
-    <h3>You can choose your destination, It decides the fate of this world.</h3>
-    <hr>
-    <hr>
-    <div style="font-size: 12px;">
-    <h3>
+   <!--<div style="background-color: rgba(193,113,127,255);">-->
+    <h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Trinity</h3>
+    <!--<hr>
+    <hr>-->
+
+    <h3 id="txt2">You can choose your destination, It decides the fate of this world.</h3>
+    <!--<hr>
+    <hr>-->
+
+
+    <div style="font-size: 10px;">
+    <h2>
      <a href="https://leur-404.com/" target=_blank title="My inspiration"> <!--the inspiration for me learning HTML and CSS-->
          LeuR
      </a>
     <hr>
-
+    
       <a href="https://trinity-seven.fandom.com/wiki/Lilith_Asami" target=_blank title="Lilith!"> <!--clickable text leading to her fandom-->
     
         Asami Lilith:
     </a>
-    </h3>
+    </h2>
+   <hr>
    <hr>
    <br>
    <br>
-    </div>
 
+    </div>
+    <!--</div>-->
     <div style="text-align: center;">
-   <p style="font-size: 20px;">Connecting to the Luxuria Archive--</p>
+   <p style="font-size: 20px;" id="p1change">Connecting   to    the    Luxuria    Archive--</p>
    <h4 style="font-size: 17px;">Executing Thema:</h4>
    <a href="https://trinity-seven.fandom.com/wiki/Lilith_Asami" target=_blank title="Lilith!">
     <img src="Asami Lilith.webp" alt="i am sorry that you are blind (JKJKJKJK)" title="Lilith Magus mode">
@@ -74,12 +64,13 @@
     <hr>
     <hr>
     <div style="text-align: center;">
-    <h3 style="font-size: 20px;">Lilith in School Uniform:</h3>
+    <h3 style="font-size: 15px;">Lilith in School Uniform:</h3>
     <p style="font-size: 17px;">リリス先生です～</p> <!--well she is a teacher... and tsundere... and i am too bored at 3 am without internet to do anything besides messing with HTML-->
     <br>
     <img src="School Uniform.webp" title="School uniform Lilith">
-    </div>
 
+
+    </div>
     <hr>
     <hr>
     <div style="text-align: center;">
@@ -91,13 +82,13 @@
     <h3>Lilith in Different Adaptations</h3>
     <div style="display: flex; justify-content: center; gap: 300px;">
   <div style="text-align: center;">
-    <img src="Lilith-anime2.jpg" alt="Lilith Magus mode" title="Lilith Magus mode" style="height: 300px; object-fit: cover;">
-    <p style="font-size: 13px;">Lilith in Anime</p>
+    <img src="Lilith-anime2.jpg" alt="Lilith in Anime" title="Lilith in Anime" style="height: 300px; object-fit: cover;">
+    <p style="font-size: 13px;" id="img1">Lilith in Anime</p>
   </div>
 
   <div style="text-align: center;">
-    <img src="Lilith-manga.webp" alt="School uniform Lilith" title="School uniform Lilith" style="height: 300px; object-fit: cover;">
-    <p style="font-size: 13px;">Lilith in Manga</p>
+    <img src="Lilith-manga.webp" alt="Lilith in Manga" title="Lilith in Manga" style="height: 300px; object-fit: cover;">
+    <p style="font-size: 13px;" id="img1">Lilith in Manga</p>
   </div>
 </div>
 
@@ -110,11 +101,11 @@
    <audio controls loop src="You can choose your destination, it decides the fate of this world.mp3"></audio>
     <!--the audio controls player actually blends with the aliceblue background... pretty cool!--> <!--you can tell how bored i am with the sheer amount of comments, no worries, i will likely delete most of thesein the future.-->
     </div>
-   <hr>
+   <!--<hr>-->
    
    <footer>
   <p style="text-align: center;">Made with boredom & HTML ❤️</p>
-  <hr>
+  <!--<hr>-->
 
 </footer>
 
