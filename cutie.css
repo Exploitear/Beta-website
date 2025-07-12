@@ -1,8 +1,13 @@
 body {
    background-color: rgb(240, 248, 255);
     color: rgb(173, 38, 79);
-    background: linear-gradient(to bottom right, rgb(240, 248, 255), rgb(243, 226, 233));
+    background: linear-gradient(to bottom right, rgb(240, 248, 255), rgb(245, 224, 233));
     overflow: auto;
+    /*background-image: url(Askizye-Surtr-2.jpg);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     font-family: monospace;
 }
 
@@ -47,6 +52,25 @@ body {
     color: brown
   }*/
 
+  #icon12{
+        transform: translateX(3px);
+        border: outset;
+        border-width: 2px;
+        border-radius: 50%;
+  }
+ 
+ #icon2{
+       transform: translateX(1100px);
+       vertical-align: middle;
+       margin-right: 20px;
+       border-radius: 2px;
+       border-radius: 50%;
+       border-style: outset;
+       border-color: rgba(63, 130, 151, 0.6);
+       
+ }
+
+
 #txt2{
       border-style: outset;
       box-shadow: 0 0 5px rgb(168, 126, 140, 0.8);
@@ -57,13 +81,13 @@ body {
         border-color: rgb(168, 126, 140);
         border-radius: 25px;
         padding: 7px;
-
-}
+         
+}    
 
 #img2{
 border-style: outset;
 box-shadow: 0 0 5px rgb(168, 126, 140,  0.8);
-        border-width: 5px;
+        border-width: 6px;
         border-color: rgba(193,113,127,255);
         border-radius: 20px;
         padding: 3px;
@@ -91,10 +115,10 @@ box-shadow: 0 0 5px rgb(168, 126, 140,  0.8);
         border-right-style: hidden;
         border-top-style: dotted;
         border-bottom-style: dotted;
-        border-color: rgb(168, 126, 140);
+        border-color: rgb(168, 126, 140, 0.8);
         border-radius: 2px;
         padding: 7px;
-
+        color: rgb(173, 38, 79, 0.8);
 
 }
 
@@ -152,7 +176,20 @@ box-shadow: 0 0 5px rgb(168, 126, 140,  0.8);
 
 #txt8{
   
-        border-width: 3px;
+        border-width: 2px;
+        box-shadow: 0 0 5px rgba(63, 130, 151, 0.6);
+        border-left-style: double;
+        border-right-style: double;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-color: rgba(63,130,151,0.8);
+        border-radius: 10px;
+        padding: 7px;
+        color: rgb(3, 101, 139, 0.7);
+}
+
+#txt9{
+     border-width: 3px;
         box-shadow: 0 0 5px rgba(63, 130, 151, 0.6);
         border-left-style: double;
         border-right-style: double;
@@ -160,8 +197,32 @@ box-shadow: 0 0 5px rgb(168, 126, 140,  0.8);
         border-bottom-style: solid;
         border-color: rgba(63,130,151,255);
         border-radius: 10px;
-        padding: 7px;
+        padding: 8px;
+        color: rgb(3, 101, 139);
+        font-size: 17px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
+#txt10{
+      border-width: 2px;
+        box-shadow: 0 0 5px rgb(168, 126, 140, 0.8);
+        border-left-style: dotted;
+        border-right-style: dotted;
+        border-top-style: double;
+        border-bottom-style: solid;
+        border-color: rgb(172, 145, 154, 0.6);
+        border-radius: 10px;
+        padding: 7px;
+        font-size: 16px;
+        font-weight: bold;
+        color: rgb(173, 38, 79, 0.8);
+}
+#txt11{
+    font-family: cursive;
+   color: rgb(78, 76, 76);
+   font-weight: bold;
+  }
 
 #img3{
      border-width: 2px;
@@ -201,3 +262,33 @@ box-shadow: 0 0 5px rgb(168, 126, 140,  0.8);
         padding: 30px;
 
 }
+
+#img6{
+     height: 1000px;
+     width: 1000px;
+  border-width: 6px;
+        box-shadow: 0 0 5px rgba(63, 130, 151, 0.6);
+        border-left-style: outset;
+        border-right-style: outset;
+        border-top-style: double;
+        border-bottom-style: double;
+        border-color: rgba(63,130,151,255);
+        border-radius: 15px;
+        padding: 5px;
+}
+
+
+
+/*waaaa, this CSS code looks clean! should i mess it up with comments like i did in the HTML file? mhm... Very enticing indeed*/
+
+
+#img7{
+border-style: outset;
+box-shadow: 0 0 5px rgba(180, 162, 168, 0.8);
+        border-width: 6px;
+        border-color: rgb(128, 122, 123);
+        border-radius: 20px;
+        padding: 3px;
+
+}
+ 
