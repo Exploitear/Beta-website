@@ -4,3 +4,4 @@
 //myb i will make a reloading screen before it accesses index.html, like a animated loading icon and then index.html
 //i might need JS for that, it will be like 'connecting to the luxuria archive, executing thema' where the thema
 //is the website ig.
+console.log('Hello');

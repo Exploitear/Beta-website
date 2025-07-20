@@ -3,12 +3,14 @@ body {
     color: rgb(173, 38, 79);
     background: linear-gradient(to bottom right, rgb(240, 248, 255), rgb(245, 224, 233));
     overflow: auto;
-    /*background-image: url(Askizye-Surtr-2.jpg);*/
+   /* background-image: url(2x_waifu2x_art_noise0_scale.png);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     font-family: monospace;
+    overflow-y: scroll;
+  height: 100vh;
 }
 
   
@@ -41,7 +43,7 @@ body {
 
   footer{
         border-style: outset;
-        box-shadow: 0 0 5px rgb(168, 126, 140m, 0.8);
+        box-shadow: 0 0 5px rgb(168, 126, 140, 0.8);
         border-width: 4px;
         border-color: rgba(193,113,127,255);
         border-radius: 5px;
@@ -290,5 +292,10 @@ box-shadow: 0 0 5px rgba(180, 162, 168, 0.8);
         border-radius: 20px;
         padding: 3px;
 
+}
+
+
+body::-webkit-scrollbar {
+  display: none;
 }
  
